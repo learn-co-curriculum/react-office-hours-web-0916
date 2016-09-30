@@ -1,0 +1,30 @@
+{
+  "name": "couch-potatoes",
+  "version": "1.0.0",
+  "description": "An app to practice react and think about TV...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --history-api-fallback"
+  },
+  "keywords": [
+    "tv",
+    "react"
+  ],
+  "author": "The 404s",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1",
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-1": "^6.13.0"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
